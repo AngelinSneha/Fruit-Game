@@ -21,7 +21,7 @@ $(function() {
       startAction();
     }
   });
-$("#fruit1").mouseover(function() {
+$("#fruit1").click(function() {
   score++;
   $("#scoreValue").html(score);
 
